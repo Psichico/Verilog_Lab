@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_2.v";
+static const char *ng0 = "A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_2A.v";
 
 
 
@@ -1276,9 +1276,9 @@ LAB13:    t103 = *((unsigned int *)t92);
 }
 
 
-extern void work_m_00000000003642394673_1847776451_init()
+extern void work_m_00000000003642394673_3260423960_init()
 {
 	static char *pe[] = {(void *)Cont_9_0,(void *)Cont_10_1,(void *)Cont_11_2,(void *)Cont_12_3,(void *)Cont_13_4,(void *)Cont_14_5};
-	xsi_register_didat("work_m_00000000003642394673_1847776451", "isim/Question_2A_testbench_isim_beh.exe.sim/work/m_00000000003642394673_1847776451.didat");
+	xsi_register_didat("work_m_00000000003642394673_3260423960", "isim/Question_2A_Testbench_isim_beh.exe.sim/work/m_00000000003642394673_3260423960.didat");
 	xsi_register_executes(pe);
 }
