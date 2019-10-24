@@ -3,16 +3,16 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.63 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.63 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
---> Reading design: Question_2B.prj
+--> Reading design: Question_3_one.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -40,16 +40,16 @@ TABLE OF CONTENTS
 *                      Synthesis Options Summary                        *
 =========================================================================
 ---- Source Parameters
-Input File Name                    : "Question_2B.prj"
+Input File Name                    : "Question_3_one.prj"
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
-Output File Name                   : "Question_2B"
+Output File Name                   : "Question_3_one"
 Output Format                      : NGC
 Target Device                      : xc7a100t-3-csg324
 
 ---- Source Options
-Top Module Name                    : Question_2B
+Top Module Name                    : Question_3_one
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
@@ -105,24 +105,24 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "A:\Work and Studies\SJSU\SEM 1\FA19 EE-271 Digital System Design Sec 02\Verilog_Mycodes\Verilog_Lab\Lab_1.1\Lab_1.1\Question_2B.v" into library work
-Parsing module <Question_2B>.
+Analyzing Verilog file "A:\Work and Studies\SJSU\SEM 1\FA19 EE-271 Digital System Design Sec 02\Verilog_Mycodes\Verilog_Lab\Lab_1.1\Lab_1.1\Question_3_one.v" into library work
+Parsing module <Question_3_one>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
-Elaborating module <Question_2B>.
+Elaborating module <Question_3_one>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
-Synthesizing Unit <Question_2B>.
-    Related source file is "A:\Work and Studies\SJSU\SEM 1\FA19 EE-271 Digital System Design Sec 02\Verilog_Mycodes\Verilog_Lab\Lab_1.1\Lab_1.1\Question_2B.v".
+Synthesizing Unit <Question_3_one>.
+    Related source file is "A:\Work and Studies\SJSU\SEM 1\FA19 EE-271 Digital System Design Sec 02\Verilog_Mycodes\Verilog_Lab\Lab_1.1\Lab_1.1\Question_3_one.v".
     Summary:
 	no macro.
-Unit <Question_2B> synthesized.
+Unit <Question_3_one> synthesized.
 
 =========================================================================
 HDL Synthesis Report
@@ -145,11 +145,11 @@ Found no macro
 *                         Low Level Synthesis                           *
 =========================================================================
 
-Optimizing unit <Question_2B> ...
+Optimizing unit <Question_3_one> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Question_2B, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block Question_3_one, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -174,17 +174,16 @@ Partition Implementation Status
 *                            Design Summary                             *
 =========================================================================
 
-Top Level Output File Name         : Question_2B.ngc
+Top Level Output File Name         : Question_3_one.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4
-#      LUT2                        : 1
-#      LUT3                        : 2
-#      LUT4                        : 1
-# IO Buffers                       : 8
-#      IBUF                        : 4
-#      OBUF                        : 4
+# BELS                             : 5
+#      LUT3                        : 4
+#      LUT6                        : 1
+# IO Buffers                       : 11
+#      IBUF                        : 6
+#      OBUF                        : 5
 
 Device utilization summary:
 ---------------------------
@@ -193,19 +192,19 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                    4  out of  63400     0%  
-    Number used as Logic:                 4  out of  63400     0%  
+ Number of Slice LUTs:                    5  out of  63400     0%  
+    Number used as Logic:                 5  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      4
-   Number with an unused Flip Flop:       4  out of      4   100%  
-   Number with an unused LUT:             0  out of      4     0%  
-   Number of fully used LUT-FF pairs:     0  out of      4     0%  
+ Number of LUT Flip Flop pairs used:      5
+   Number with an unused Flip Flop:       5  out of      5   100%  
+   Number with an unused LUT:             0  out of      5     0%  
+   Number of fully used LUT-FF pairs:     0  out of      5     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                           8
- Number of bonded IOBs:                   8  out of    210     3%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    210     5%  
 
 Specific Feature Utilization:
 
@@ -240,7 +239,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 0.943ns
+   Maximum combinational path delay: 1.089ns
 
 Timing Details:
 ---------------
@@ -248,22 +247,22 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 12 / 4
+  Total number of paths / destination ports: 18 / 5
 -------------------------------------------------------------------------
-Delay:               0.943ns (Levels of Logic = 3)
-  Source:            x1 (PAD)
+Delay:               1.089ns (Levels of Logic = 3)
+  Source:            s0 (PAD)
   Destination:       f (PAD)
 
-  Data Path: x1 to f
+  Data Path: s0 to f
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             3   0.001   0.566  x1_IBUF (x1_IBUF)
-     LUT4:I0->O            1   0.097   0.279  f1 (f_OBUF)
+     IBUF:I->O             5   0.001   0.712  s0_IBUF (s0_IBUF)
+     LUT6:I0->O            1   0.097   0.279  out41 (f_OBUF)
      OBUF:I->O                 0.000          f_OBUF (f)
     ----------------------------------------
-    Total                      0.943ns (0.098ns logic, 0.845ns route)
-                                       (10.4% logic, 89.6% route)
+    Total                      1.089ns (0.098ns logic, 0.991ns route)
+                                       (9.0% logic, 91.0% route)
 
 =========================================================================
 
@@ -273,12 +272,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.03 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.80 secs
  
 --> 
 
-Total memory usage is 4625952 kilobytes
+Total memory usage is 4625960 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
