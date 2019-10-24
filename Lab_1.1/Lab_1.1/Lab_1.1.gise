@@ -64,9 +64,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Question_2A.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Question_2A.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Question_2A.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Question_2A_Testbench_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Question_2A_Testbench_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Question_2A_Testbench_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Question_2A_Testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Question_2A_testbench.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Question_2A_testbench.lso"/>
@@ -75,6 +73,19 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Question_2A_testbench.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Question_2A_testbench_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Question_2A_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Question_2B.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Question_2B.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Question_2B.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Question_2B.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Question_2B.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Question_2B.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Question_2B.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Question_2B.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Question_2B_Testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Question_2B_Testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Question_2B_Testbench_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Question_2B_Testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Question_2B_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Question_2_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
@@ -87,11 +98,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1571870781" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1571870781">
+    <transform xil_pn:end_ts="1571875181" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1571875181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571873271" xil_pn:in_ck="-3175497329386833" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571873271">
+    <transform xil_pn:end_ts="1571875293" xil_pn:in_ck="-4071981406128119316" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571875293">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Question_1A.v"/>
@@ -100,20 +111,22 @@
       <outfile xil_pn:name="Question_1B_Testbench.v"/>
       <outfile xil_pn:name="Question_2A.v"/>
       <outfile xil_pn:name="Question_2A_Testbench.v"/>
+      <outfile xil_pn:name="Question_2B.v"/>
+      <outfile xil_pn:name="Question_2B_Testbench.v"/>
     </transform>
-    <transform xil_pn:end_ts="1571873104" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1169382398660761760" xil_pn:start_ts="1571873104">
+    <transform xil_pn:end_ts="1571875181" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4287163764766136287" xil_pn:start_ts="1571875181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571873104" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1390842009502039682" xil_pn:start_ts="1571873104">
+    <transform xil_pn:end_ts="1571875181" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3791114770173924417" xil_pn:start_ts="1571875181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571873104" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6916168701995521511" xil_pn:start_ts="1571873104">
+    <transform xil_pn:end_ts="1571875181" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6916168744613964488" xil_pn:start_ts="1571875181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571873276" xil_pn:in_ck="-3175497329386833" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571873276">
+    <transform xil_pn:end_ts="1571875298" xil_pn:in_ck="-4071981406128119316" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571875298">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Question_1A.v"/>
@@ -122,21 +135,23 @@
       <outfile xil_pn:name="Question_1B_Testbench.v"/>
       <outfile xil_pn:name="Question_2A.v"/>
       <outfile xil_pn:name="Question_2A_Testbench.v"/>
+      <outfile xil_pn:name="Question_2B.v"/>
+      <outfile xil_pn:name="Question_2B_Testbench.v"/>
     </transform>
-    <transform xil_pn:end_ts="1571873279" xil_pn:in_ck="-3175497329386833" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7879327063659152625" xil_pn:start_ts="1571873276">
+    <transform xil_pn:end_ts="1571875301" xil_pn:in_ck="-4071981406128119316" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6562833349781659153" xil_pn:start_ts="1571875298">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Question_2A_Testbench_beh.prj"/>
-      <outfile xil_pn:name="Question_2A_Testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="Question_2B_Testbench_beh.prj"/>
+      <outfile xil_pn:name="Question_2B_Testbench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1571873280" xil_pn:in_ck="-1238324984575887160" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7246111019941628142" xil_pn:start_ts="1571873279">
+    <transform xil_pn:end_ts="1571875301" xil_pn:in_ck="7397147262417355681" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5521917388120781492" xil_pn:start_ts="1571875301">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Question_2A_Testbench_isim_beh.wdb"/>
+      <outfile xil_pn:name="Question_2B_Testbench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -144,45 +159,45 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571872988" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7295768078529375295" xil_pn:start_ts="1571872988">
+    <transform xil_pn:end_ts="1571874011" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3195668524697425856" xil_pn:start_ts="1571874011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571872988" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6916168701995521511" xil_pn:start_ts="1571872988">
+    <transform xil_pn:end_ts="1571874011" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6916168744613964488" xil_pn:start_ts="1571874011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571872988" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571872988">
+    <transform xil_pn:end_ts="1571874011" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571874011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571872988" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2926838879477096225" xil_pn:start_ts="1571872988">
+    <transform xil_pn:end_ts="1571874011" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1173260674354853214" xil_pn:start_ts="1571874011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571872988" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1571872988">
+    <transform xil_pn:end_ts="1571874011" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1571874011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571872988" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2744609795307482063" xil_pn:start_ts="1571872988">
+    <transform xil_pn:end_ts="1571874011" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2744609752689039086" xil_pn:start_ts="1571874011">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571873254" xil_pn:in_ck="-3175497329386833" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1093835605193191100" xil_pn:start_ts="1571873234">
+    <transform xil_pn:end_ts="1571875281" xil_pn:in_ck="-4071981406128119316" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7383297018259861755" xil_pn:start_ts="1571875267">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Question_2A.lso"/>
-      <outfile xil_pn:name="Question_2A.ngc"/>
-      <outfile xil_pn:name="Question_2A.ngr"/>
-      <outfile xil_pn:name="Question_2A.prj"/>
-      <outfile xil_pn:name="Question_2A.stx"/>
-      <outfile xil_pn:name="Question_2A.syr"/>
-      <outfile xil_pn:name="Question_2A.xst"/>
-      <outfile xil_pn:name="Question_2A_Testbench_beh.prj"/>
-      <outfile xil_pn:name="Question_2A_Testbench_stx_beh.prj"/>
-      <outfile xil_pn:name="Question_2A_xst.xrpt"/>
+      <outfile xil_pn:name="Question_2B.lso"/>
+      <outfile xil_pn:name="Question_2B.ngc"/>
+      <outfile xil_pn:name="Question_2B.ngr"/>
+      <outfile xil_pn:name="Question_2B.prj"/>
+      <outfile xil_pn:name="Question_2B.stx"/>
+      <outfile xil_pn:name="Question_2B.syr"/>
+      <outfile xil_pn:name="Question_2B.xst"/>
+      <outfile xil_pn:name="Question_2B_Testbench_beh.prj"/>
+      <outfile xil_pn:name="Question_2B_Testbench_stx_beh.prj"/>
+      <outfile xil_pn:name="Question_2B_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
