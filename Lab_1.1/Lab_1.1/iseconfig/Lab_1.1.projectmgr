@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -9,15 +9,21 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Question1B_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_1B_Testbench.v</ClosedNode>
          <ClosedNode>/Question_1A_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_1A_Testbench.v</ClosedNode>
+         <ClosedNode>/Question_2A_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_2A_Testbench.v</ClosedNode>
+         <ClosedNode>/Question_2B_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_2B_Testbench.v</ClosedNode>
+         <ClosedNode>/Question_3_one_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_3_one_Testbench.v</ClosedNode>
+         <ClosedNode>/Question_3_two_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_3_two_Testbench.v</ClosedNode>
+         <ClosedNode>/Question_4_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_4_Testbench.v</ClosedNode>
+         <ClosedNode>/Question_5_one_Testbench A:|Work and Studies|SJSU|SEM 1|FA19 EE-271 Digital System Design Sec 02|Verilog_Mycodes|Verilog_Lab|Lab_1.1|Lab_1.1|Question_5_one_Testbench.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Question_1A_Testbench (A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_1A_Testbench.v)</SelectedItem>
+         <SelectedItem>Question1B_Testbench (A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_1B_Testbench.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000174000000020000000000000000000000000200000064ffffffff000000810000000300000002000001740000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Question_1A_Testbench (A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_1A_Testbench.v)</CurrentItem>
+      <CurrentItem>Question1B_Testbench (A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_1B_Testbench.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -25,13 +31,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000115000000010000000100000000000000000000000064ffffffff000000810000000000000001000001150000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -40,7 +46,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028e000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001c20000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Question_1A.v</CurrentItem>
    </ItemView>
@@ -70,7 +76,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000115000000010000000100000000000000000000000064ffffffff000000810000000000000001000001150000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000104000000010000000100000000000000000000000064ffffffff000000810000000000000001000001040000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -96,13 +102,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000115000000010000000100000000000000000000000064ffffffff000000810000000000000001000001150000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -119,4 +125,17 @@
    </ItemView>
    <SourceProcessView>000000ff0000000000000002000000d00000007501000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Question_2A_Testbench.v (A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_2A_Testbench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000160000000020000000000000000000000000000000064ffffffff000000810000000000000002000000f00000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Question_2A_Testbench.v (A:/Work and Studies/SJSU/SEM 1/FA19 EE-271 Digital System Design Sec 02/Verilog_Mycodes/Verilog_Lab/Lab_1.1/Lab_1.1/Question_2A_Testbench.v)</CurrentItem>
+   </ItemView>
 </Project>

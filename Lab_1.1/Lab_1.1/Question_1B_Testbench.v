@@ -38,7 +38,7 @@ module Question1B_Testbench();
 		x4 = 0;
 		#50
 		
-		forever begin  //why does it not continue FOREVER??????
+		forever begin 
 		x1 = ~x1;
 		#10
 		x2 = ~x2;

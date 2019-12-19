@@ -1,4 +1,4 @@
-module Question_1A_Testbench();
+module Question_1A_Testbench();		//input becomes reg and output becomes wire
 
 	// Inputs
 	reg a;
@@ -10,13 +10,8 @@ module Question_1A_Testbench();
 	wire x;
 
 	// Instantiate the Unit Under Test (UUT)
-	Question_1A psichico(
-		.a(a), 
-		.b(b), 
-		.x(x),
-		.c(c),
-		.d(d)
-	);
+	Question_1A psichico(.a(a), .b(b), .x(x), .c(c), .d(d) ); //testbench module name can be anything. I used 'psichico'
+																				 
 
 	initial begin
 		// Initialize Inputs
