@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "A:/Cloud/Git/Verilog_Lab/Lab_1.2/Lab_1.2/Question1_textbench_isim_beh.exe" -prj "A:/Cloud/Git/Verilog_Lab/Lab_1.2/Lab_1.2/Question1_textbench_beh.prj" "work.Question1_textbench" "work.glbl" 
