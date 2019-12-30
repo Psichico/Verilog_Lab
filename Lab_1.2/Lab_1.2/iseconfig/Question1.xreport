@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-29T14:26:15</DateModified>
-  <ModuleName>Question1_textbench</ModuleName>
+  <DateModified>2019-12-29T20:53:09</DateModified>
+  <ModuleName>Question1</ModuleName>
   <SummaryTimeStamp>2019-12-29T14:21:19</SummaryTimeStamp>
   <SavedFilePath>A:/Cloud/Git/Verilog_Lab/Lab_1.2/Lab_1.2/iseconfig/Question1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/Lab_1.2/Lab_1.2</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/Lab_1.2/Lab_1.2\</ImplementationReportsDirectory>
   <DateInitialized>2019-12-29T14:26:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
