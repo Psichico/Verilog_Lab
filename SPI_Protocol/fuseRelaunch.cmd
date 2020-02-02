@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "A:/Cloud/Git/Verilog_Lab/SPI_Protocol/SPI_testbench_isim_beh.exe" -prj "A:/Cloud/Git/Verilog_Lab/SPI_Protocol/SPI_testbench_beh.prj" "work.SPI_testbench" "work.glbl" 

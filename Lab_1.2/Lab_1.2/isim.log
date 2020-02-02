@@ -1,0 +1,75 @@
+ISim log file
+Running: A:\Cloud\Git\Verilog_Lab\Lab_1.2\Lab_1.2\Question4_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb A:/Cloud/Git/Verilog_Lab/Lab_1.2/Lab_1.2/Question4_testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+/n input = 0001,  output = 0000 
+/n input = 0002,  output = 0000 
+/n input = 0003,  output = 0000 
+/n input = 0004,  output = 0001 
+/n input = 0005,  output = 0001 
+/n input = 0006,  output = 0001 
+/n input = 0007,  output = 0001 
+/n input = 0008,  output = 0001 
+/n input = 0009,  output = 0001 
+/n input = 000a,  output = 0001 
+/n input = 000b,  output = 0001 
+/n input = 000c,  output = 0001 
+/n input = 000d,  output = 0001 
+/n input = 000e,  output = 0001 
+/n input = 000f,  output = 0001 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+/n input = 0000000000000001,  output = 0 
+/n input = 0000000000000010,  output = 0 
+/n input = 0000000000000011,  output = 0 
+/n input = 0000000000000100,  output = 1 
+/n input = 0000000000000101,  output = 1 
+/n input = 0000000000000110,  output = 1 
+/n input = 0000000000000111,  output = 1 
+/n input = 0000000000001000,  output = 1 
+/n input = 0000000000001001,  output = 1 
+/n input = 0000000000001010,  output = 1 
+/n input = 0000000000001011,  output = 1 
+/n input = 0000000000001100,  output = 1 
+/n input = 0000000000001101,  output = 1 
+/n input = 0000000000001110,  output = 1 
+/n input = 0000000000001111,  output = 1 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+/n input = 0000000000000001,  output = 0 
+/n input = 0000000000000010,  output = 0 
+/n input = 0000000000000100,  output = 1 
+/n input = 0000000000001000,  output = 1 
+/n input = 0000000000010000,  output = 0 
+/n input = 0000000000100000,  output = 2 
+/n input = 0000000001000000,  output = 3 
+/n input = 0000000010000000,  output = 3 
+/n input = 0000000100000000,  output = 0 
+/n input = 0000001000000000,  output = 0 
+/n input = 0000010000000000,  output = 4 
+/n input = 0000100000000000,  output = 4 
+/n input = 0001000000000000,  output = 0 
+/n input = 0010000000000000,  output = 8 
+/n input = 0100000000000000,  output = c 
+/n input = 1000000000000000,  output = c 
