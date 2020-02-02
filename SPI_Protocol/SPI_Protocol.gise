@@ -52,6 +52,10 @@
     <transform xil_pn:end_ts="1580627780" xil_pn:in_ck="-8648358134913606781" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1580627780">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SPI_main.v"/>
       <outfile xil_pn:name="SPI_testbench.v"/>
     </transform>
@@ -70,12 +74,22 @@
     <transform xil_pn:end_ts="1580627780" xil_pn:in_ck="-8648358134913606781" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1580627780">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SPI_main.v"/>
       <outfile xil_pn:name="SPI_testbench.v"/>
     </transform>
     <transform xil_pn:end_ts="1580627783" xil_pn:in_ck="-8648358134913606781" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-453830789936769645" xil_pn:start_ts="1580627780">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SPI_testbench_beh.prj"/>
       <outfile xil_pn:name="SPI_testbench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -85,6 +99,9 @@
     <transform xil_pn:end_ts="1580627783" xil_pn:in_ck="-1754925129774392966" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7559761847946484694" xil_pn:start_ts="1580627783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SPI_testbench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
@@ -119,6 +136,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="SPI_main.lso"/>
       <outfile xil_pn:name="SPI_main.ngc"/>
       <outfile xil_pn:name="SPI_main.ngr"/>
