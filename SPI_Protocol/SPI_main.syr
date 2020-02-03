@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: SPI_main.prj
 
@@ -113,155 +113,16 @@ Parsing module <SPI_main>.
 =========================================================================
 
 Elaborating module <SPI_main>.
-WARNING:HDLCompiler:413 - "A:\Cloud\Git\Verilog_Lab\SPI_Protocol\SPI_main.v" Line 32: Result of 25-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:91 - "A:\Cloud\Git\Verilog_Lab\SPI_Protocol\SPI_main.v" Line 108: Signal <posedge_counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+ERROR:HDLCompiler:1128 - "A:\Cloud\Git\Verilog_Lab\SPI_Protocol\SPI_main.v" Line 108: Assignment under multiple single edges is not supported for synthesis
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1128"
+Module SPI_main remains a blackbox, due to errors in its contents
 WARNING:HDLCompiler:1499 - "A:\Cloud\Git\Verilog_Lab\SPI_Protocol\SPI_main.v" Line 2: Empty module <SPI_main> remains a black box.
-
-=========================================================================
-*                           HDL Synthesis                               *
-=========================================================================
-
-Synthesizing Unit <SPI_main>.
-    Related source file is "A:\Cloud\Git\Verilog_Lab\SPI_Protocol\SPI_main.v".
-WARNING:Xst:647 - Input <m_reg> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <s_reg> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <miso> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <ss> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <get_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <global_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Summary:
-	no macro.
-Unit <SPI_main> synthesized.
-
-=========================================================================
-HDL Synthesis Report
-
-Found no macro
-=========================================================================
-
-=========================================================================
-*                       Advanced HDL Synthesis                          *
-=========================================================================
-
-
-=========================================================================
-Advanced HDL Synthesis Report
-
-Found no macro
-=========================================================================
-
-=========================================================================
-*                         Low Level Synthesis                           *
-=========================================================================
-
-Optimizing unit <SPI_main> ...
-
-Mapping all equations...
-Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block SPI_main, actual ratio is 0.
-
-Final Macro Processing ...
-
-=========================================================================
-Final Register Report
-
-Found no macro
-=========================================================================
-
-=========================================================================
-*                           Partition Report                            *
-=========================================================================
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-=========================================================================
-*                            Design Summary                             *
-=========================================================================
-
-Top Level Output File Name         : SPI_main.ngc
-
-Primitive and Black Box Usage:
-------------------------------
-
-Device utilization summary:
----------------------------
-
-Selected Device : 7a100tcsg324-3 
-
-
-Slice Logic Utilization: 
-
-Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      0
-   Number with an unused Flip Flop:       0  out of      0         
-   Number with an unused LUT:             0  out of      0         
-   Number of fully used LUT-FF pairs:     0  out of      0         
-   Number of unique control sets:         0
-
-IO Utilization: 
- Number of IOs:                          22
- Number of bonded IOBs:                   0  out of    210     0%  
-
-Specific Feature Utilization:
-
----------------------------
-Partition Resource Summary:
----------------------------
-
-  No Partitions were found in this design.
-
----------------------------
-
-
-=========================================================================
-Timing Report
-
-NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
-      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
-      GENERATED AFTER PLACE-and-ROUTE.
-
-Clock Information:
-------------------
-No clock signals found in this design
-
-Asynchronous Control Signals Information:
-----------------------------------------
-No asynchronous control signals found in this design
-
-Timing Summary:
----------------
-Speed Grade: -3
-
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
-   Maximum combinational path delay: No path found
-
-Timing Details:
----------------
-All values displayed in nanoseconds (ns)
-
-=========================================================================
-
-Cross Clock Domains Report:
---------------------------
-
-=========================================================================
-
-
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.57 secs
- 
 --> 
 
-Total memory usage is 4641176 kilobytes
+Total memory usage is 4521532 kilobytes
 
-Number of errors   :    0 (   0 filtered)
-Number of warnings :    9 (   0 filtered)
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

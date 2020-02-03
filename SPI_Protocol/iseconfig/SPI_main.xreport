@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-02-01T22:42:03</DateModified>
+  <DateModified>2020-02-02T11:11:26</DateModified>
   <ModuleName>SPI_main</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>A:/Cloud/Git/Verilog_Lab/SPI_Protocol/iseconfig/SPI_main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/SPI_Protocol</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/SPI_Protocol\</ImplementationReportsDirectory>
   <DateInitialized>2020-02-01T22:42:03</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
