@@ -13,8 +13,8 @@ module shift_register( clk, reset);
 	begin
 		if(reset==1)
 		begin
-			master <= 8'b00000000;
-			slave <= 8'b10101011;
+			master <= 8'b11110000;
+			slave <= 8'b00001111;
 		end
 		
 		else

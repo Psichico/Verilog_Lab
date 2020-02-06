@@ -21,6 +21,8 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 	reg sclk;
 	reg [3:0] posedge_counter;
 	
+	reg [3:0] bit_counter;
+	
 	// SPI clock generator
 	always @ (posedge global_clk or negedge reset)
 	begin
@@ -46,6 +48,7 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 			sclk <= 0;
 			busy_flag <= 1'b1;
 			posedge_counter <= 4'b0000;
+			//bit_counter <= 4'h0;
 		end	
 	
 	end
@@ -60,6 +63,7 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 			begin
 				m_buffer <= m_reg;
 				busy_flag <= 1'b1;
+				bit_counter <= 4'h0;
 				ss <= 1'b0;
 				s_buffer <= s_reg;
 			end
@@ -82,33 +86,31 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 	always @ (posedge sclk or negedge reset)// or posedge_counter)
 	begin
 		
-		posedge_counter <= posedge_counter + 1'b1;
+		
 		
 		if(reset!=1)
 		begin
-			if(posedge_counter != 4'h08 && busy_flag == 1'b1)
+			if(get_data == 1 || busy_flag == 1'b1)
 			begin
-				s_buffer[0] <= m_buffer[7];
-				s_buffer <= s_buffer >> 1;
-				m_buffer <= m_buffer >> 1;
-				
+				posedge_counter <= posedge_counter + 1'b1;
+
+				if(posedge_counter <= 4'h09 && busy_flag == 1'b1)
+				begin
+					m_buffer[bit_counter] <= s_buffer[bit_counter];
+					bit_counter <= bit_counter + 4'h1;
+				end
+				else
+				begin
+					busy_flag <= 1'b0; 
+				end
 			end
-			else
-			begin
-				busy_flag <= 1'b0; 
-			end
-			
-			
 		end
 		
 		else
 		begin
 			posedge_counter <= 8'h00;
-		end
-	
-		
+		end	
 		
 	end
-	
 
 endmodule

@@ -64,8 +64,8 @@ module SPI_testbench_1;
 		// Wait 100 ns for global reset to finish
 		#10;
 		reset = 0;
-		m_reg = 8'b11111111;
-		s_reg = 8'b10101010;
+		m_reg = 8'b11110000;
+		s_reg = 8'b00001111;
 		#100;
 		get_data= 1'b0;
 		#1;
