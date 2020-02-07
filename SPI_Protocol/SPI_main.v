@@ -1,7 +1,6 @@
 
 module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //get_data = signal that tells master to get data from slave
 
-	
 	output mosi;
 	input miso;
 	output reg ss;
@@ -29,8 +28,7 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 		
 		if(reset != 1) //if not reset, then begin the process
 		begin
-		
-				if(counter_clk != 24'h000011) // decimal 1562500. 50Mhz / 32 24'h17D784
+				if(counter_clk != 24'h000010) // decimal 1562500. 50Mhz / 32 24'h17D784
 				begin
 					counter_clk <= counter_clk + 1'b1;
 				end
@@ -48,7 +46,6 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 			sclk <= 0;
 			busy_flag <= 1'b1;
 			posedge_counter <= 4'b0000;
-			//bit_counter <= 4'h0;
 		end	
 	
 	end
@@ -67,7 +64,6 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 				ss <= 1'b0;
 				s_buffer <= s_reg;
 			end
-			
 			else
 			begin
 				busy_flag <= busy_flag; //unnecessary
@@ -86,11 +82,9 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 	always @ (posedge sclk or negedge reset)// or posedge_counter)
 	begin
 		
-		
-		
 		if(reset!=1)
 		begin
-			if(get_data == 1 || busy_flag == 1'b1)
+			if(busy_flag == 1'b1)
 			begin
 				posedge_counter <= posedge_counter + 1'b1;
 
@@ -101,7 +95,8 @@ module SPI_main(mosi, miso, ss, m_reg, s_reg, get_data, global_clk, reset); //ge
 				end
 				else
 				begin
-					busy_flag <= 1'b0; 
+					busy_flag <= 1'b0;
+					posedge_counter <= 8'h00;
 				end
 			end
 		end

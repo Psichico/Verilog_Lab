@@ -46,7 +46,7 @@ module SPI_testbench_1;
 		.reset(reset)
 	);
 	
-	always #1 global_clk = ~global_clk;
+	always #0.1 global_clk = ~global_clk;
 
 	initial begin
 		// Initialize Inputs
@@ -62,18 +62,28 @@ module SPI_testbench_1;
 		reset = 1;
 
 		// Wait 100 ns for global reset to finish
-		#10;
+		#1;
 		reset = 0;
 		m_reg = 8'b11110000;
 		s_reg = 8'b00001111;
-		#100;
+		#10;
 		get_data= 1'b0;
 		#1;
 		get_data= 1'b1;
 		#1;
 		get_data= 1'b0;
 		
-		#1000;
+		#400;
+		
+		s_reg = 8'b00010001;
+		#10;
+		get_data= 1'b0;
+		#1;
+		get_data= 1'b1;
+		#1;
+		get_data= 1'b0;
+		
+		#200;
         
 		// Add stimulus here
 
