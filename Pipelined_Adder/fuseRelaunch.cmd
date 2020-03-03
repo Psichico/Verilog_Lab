@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p_testbench_isim_beh.exe" -prj "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p_testbench_beh.prj" "work.add_1p_testbench" "work.glbl" 
