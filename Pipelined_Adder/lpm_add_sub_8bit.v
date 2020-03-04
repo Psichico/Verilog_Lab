@@ -1,11 +1,11 @@
-module lpm_add_sub(dataa,datab,cin,cout,result);
+module lpm_add_sub_8bit(dataa,datab,cin,cout,result);
 
 parameter lpm_width=7;
 parameter lpm_direction="add";
 
-input [6:0]dataa;
-input [6:0]datab;
-output [6:0]result;
+input [7:0]dataa;
+input [7:0]datab;
+output [7:0]result;
 output cout;
 input cin;
 /*
