@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-03-02T23:18:54</DateModified>
+  <DateModified>2020-03-04T15:52:48</DateModified>
   <ModuleName>add_1p</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/iseconfig/add_1p.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/Pipelined_Adder</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/Pipelined_Adder\</ImplementationReportsDirectory>
   <DateInitialized>2020-03-02T23:18:53</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

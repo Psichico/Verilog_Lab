@@ -1,0 +1,147 @@
+ISim log file
+Running: A:\Cloud\Git\Verilog_Lab\Pipelined_Adder\add_1p_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p_testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 15.  For instance uut/add_1/, width 8 of formal port result is not equal to width 7 of actual signal r1.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 14.  For instance uut/add_1/, width 8 of formal port dataa is not equal to width 7 of actual variable I1. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 14.  For instance uut/add_1/, width 8 of formal port datab is not equal to width 7 of actual variable I2. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 15.  For instance uut/reg_1/, width 8 of formal port data is not equal to width 7 of actual signal r1.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 15.  For instance uut/reg_1/, width 8 of formal port q is not equal to width 7 of actual signal q1.
+WARNING:  For instance uut/reg_2/, width 2 of formal port data is not equal to width 7 of actual constant.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 22.  For instance uut/reg_2/, width 2 of formal port q is not equal to width 1 of actual signal cq1.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 17.  For instance uut/add_2/, width 9 of formal port dataa is not equal to width 8 of actual variable I3. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 17.  For instance uut/add_2/, width 9 of formal port datab is not equal to width 8 of actual variable I4. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_2/, width 9 of formal port result is not equal to width 8 of actual signal r2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/reg_3/, width 9 of formal port data is not equal to width 8 of actual signal r2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/reg_3/, width 9 of formal port q is not equal to width 8 of actual signal q2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_3/, width 9 of formal port dataa is not equal to width 8 of actual signal q2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 24.  For instance uut/add_3/, width 9 of formal port datab is not equal to width 8 of actual signal h2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_3/, width 9 of formal port result is not equal to width 8 of actual signal u2.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X= 2002, Y= 2002, sum=    x
+X=13604, Y=24193, sum=    x
+X=22025, Y=22115, sum=    x
+X=31501, Y= 6541, sum=    x
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 15.  For instance uut/add_1/, width 8 of formal port result is not equal to width 7 of actual signal r1.
+WARNING:  For instance uut/reg_2/, width 1 of formal port data is not equal to width 7 of actual constant.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_2/, width 9 of formal port result is not equal to width 8 of actual signal r2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_3/, width 9 of formal port result is not equal to width 8 of actual signal u2.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X=   10, Y=    0, sum=   10
+X= 2002, Y= 2002, sum=   10
+X= 2002, Y= 2002, sum= 3876
+X=13604, Y=24193, sum= 3876
+X=13604, Y=24193, sum= 5029
+X=22025, Y=22115, sum= 5029
+X=22025, Y=22115, sum=11372
+X=31501, Y= 6541, sum=11372
+X=31501, Y= 6541, sum= 5274
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 15.  For instance uut/add_1/, width 8 of formal port result is not equal to width 7 of actual signal r1.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_2/, width 9 of formal port result is not equal to width 8 of actual signal r2.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/add_1p.v" Line 18.  For instance uut/add_3/, width 9 of formal port result is not equal to width 8 of actual signal u2.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X=   10, Y=    0, sum=   10
+X= 2002, Y= 2002, sum=   10
+X= 2002, Y= 2002, sum= 3876
+X=13604, Y=24193, sum= 3876
+X=13604, Y=24193, sum= 5029
+X=22025, Y=22115, sum= 5029
+X=22025, Y=22115, sum=11372
+X=31501, Y= 6541, sum=11372
+X=31501, Y= 6541, sum= 5274
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X=   10, Y=    0, sum=   10
+X= 2002, Y= 2002, sum=   10
+X= 2002, Y= 2002, sum= 4004
+X=13604, Y=24193, sum= 4004
+X=13604, Y=24193, sum= 5029
+X=22025, Y=22115, sum= 5029
+X=22025, Y=22115, sum=11372
+X=31501, Y= 6541, sum=11372
+X=31501, Y= 6541, sum= 5274
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X=   10, Y=    0, sum=   10
+X= 2002, Y= 2002, sum=   10
+X= 2002, Y= 2002, sum= 4004
+X=13604, Y=24193, sum= 4004
+X=13604, Y=24193, sum= 5029
+X=22025, Y=22115, sum= 5029
+X=22025, Y=22115, sum=11372
+X=31501, Y= 6541, sum=11372
+X=31501, Y= 6541, sum= 5274
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X=   10, Y=    0, sum=   10
+X= 2002, Y= 2002, sum=   10
+X= 2002, Y= 2002, sum= 4004
+X=32722, Y=32722, sum= 4004
+X=32722, Y=32722, sum=32676
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+X=    x, Y=    x, sum=    x
+X=   10, Y=    0, sum=    x
+X=   10, Y=    0, sum=   10
+X= 2002, Y= 2002, sum=   10
+X= 2002, Y= 2002, sum= 4004
+X= 2047, Y= 2047, sum= 4004
+X= 2047, Y= 2047, sum= 4094

@@ -9,17 +9,16 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Automatic `includes</ClosedNode>
          <ClosedNode>/add_1p A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|add_1p.v</ClosedNode>
-         <ClosedNode>/add_1p_testbench A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|testbench.v</ClosedNode>
          <ClosedNode>/tb_general A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|tb_general.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>add_1p_testbench (A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/testbench.v)</SelectedItem>
+         <SelectedItem>add_1 - lpm_add_sub (A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/lpm_add_sub.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000eb000000020000000000000000000000000200000064ffffffff000000810000000300000002000000eb0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000136000000020000000000000000000000000200000064ffffffff000000810000000300000002000001360000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>add_1p_testbench (A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/testbench.v)</CurrentItem>
+      <CurrentItem>add_1 - lpm_add_sub (A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/lpm_add_sub.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -68,13 +67,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000131000000010000000100000000000000000000000064ffffffff000000810000000000000001000001310000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -82,15 +81,15 @@
          <ClosedNode>/Automatic `includes</ClosedNode>
          <ClosedNode>/add_1p A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|add_1p.v</ClosedNode>
          <ClosedNode>/add_1p A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|testbench.v</ClosedNode>
-         <ClosedNode>/add_1p_testbench A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|testbench.v/uut - add_1p</ClosedNode>
+         <ClosedNode>/add_1p_testbench A:|Cloud|Git|Verilog_Lab|Pipelined_Adder|testbench.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>add_1p_testbench (A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/testbench.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000eb000000020000000000000000000000000200000064ffffffff000000810000000300000002000000eb0000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000116000000020000000000000000000000000200000064ffffffff000000810000000300000002000001160000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>add_1p_testbench (A:/Cloud/Git/Verilog_Lab/Pipelined_Adder/testbench.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
@@ -99,13 +98,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000131000000010000000100000000000000000000000064ffffffff000000810000000000000001000001310000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -122,4 +121,17 @@
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000131000000010000000100000000000000000000000064ffffffff000000810000000000000001000001310000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
 </Project>
