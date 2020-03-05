@@ -1,11 +1,11 @@
-// Code your design here
 `include "lpm_ff.v"
 `include "lpm_add_sub.v"
+
 module add_1p( X, Y, sum, clk);
 
 	parameter	WIDTH = 15, //Total bit width
-					WIDTH1 = 7, //bit width of lsb's
-					WIDTH2 = 8; //bit width 
+				WIDTH1 = 7, //bit width of lsb's
+				WIDTH2 = 8; //bit width 
 
 	input [WIDTH-1:0] X, Y; //inputs
 	output [WIDTH-1:0] sum; //result
@@ -45,7 +45,6 @@ module add_1p( X, Y, sum, clk);
 	end
 
 	/*********************First stage of Adder *************/
-
 	
 	lpm_add_sub add_1 //add lsb's of x &y
 	(.result(r1), .dataa(I1), .datab(I2), .cout(cr1), .cin(cin1)); //used ports
@@ -88,5 +87,3 @@ module add_1p( X, Y, sum, clk);
 	assign sum = s; //Connect s to output pins
 
 endmodule
-
-//pg5 and the code ends

@@ -6,11 +6,7 @@ module add_1p_testbench();
    
   add_1p uut(.X(X),.Y(Y),.sum(sum),.clk(clk));
   
-  always #1 clk = ~clk;
-  
-  initial begin
-		$monitor("X=%d, Y=%d, sum=%d", X, Y, sum);
-  end
+  always #1 clk = ~clk; //toggle clock every 1 unit of timescale
   
   initial begin
 		$dumpfile("dump.vcd");
@@ -29,8 +25,13 @@ module add_1p_testbench();
 		X = 15'b0000_1111_1111_111;
 		Y = 15'b0000_1111_1111_111 ;
 		#10;
-		#1000;
+		X = 15'b0000_1001_0101_010;
+		Y = 15'b0000_0000_1010_111 ;
+		#10;
+		X = 15'b1111_1111_1111_111;
+		Y = 15'b0000_0000_000_000 ;
+		#10;
+		#100;
 		$finish;
   end
-  
 endmodule
