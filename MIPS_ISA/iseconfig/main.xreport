@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-14T22:02:42</DateModified>
+  <DateModified>2020-04-15T18:12:30</DateModified>
   <ModuleName>main</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>A:/Cloud/Git/Verilog_Lab/MIPS_ISA/iseconfig/main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/MIPS_ISA</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>A:/Cloud/Git/Verilog_Lab/MIPS_ISA\</ImplementationReportsDirectory>
   <DateInitialized>2020-04-14T22:02:42</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
