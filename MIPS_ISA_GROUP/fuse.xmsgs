@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/tb_main.v" Line 72: Target &lt;<arg fmt="%s" index="1">mrd_i</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/tb_main.v" Line 74: Target &lt;<arg fmt="%s" index="1">mrd_d</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 157: Port <arg fmt="%s" index="1">r32</arg> is not connected to this instance
+</msg>
+
+</messages>
+

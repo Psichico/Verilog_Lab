@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/memory.xst" -ofn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/memory.syr" 
+xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/memory.xst" -ofn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/memory.syr" 
+xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/memory.xst" -ofn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/memory.syr" 

@@ -1,0 +1,50 @@
+ISim log file
+Running: A:\Cloud\Git\Verilog_Lab\MIPS_ISA_GROUP\tb_main_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/tb_main_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 58.  For instance uut/m/, width 6 of formal port src_out is not equal to width 5 of actual signal src_reg_out_mr_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 59.  For instance uut/m/, width 6 of formal port dest_out is not equal to width 5 of actual signal dest_reg_out_mr_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 60.  For instance uut/m/, width 6 of formal port target_out is not equal to width 5 of actual signal targ_reg_out_mr_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 161.  For instance uut/m/, width 32 of formal port mwd_d is not equal to width 1 of actual signal mwd_d_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 161.  For instance uut/m/, width 32 of formal port mwa_d is not equal to width 1 of actual signal mwa_d_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 161.  For instance uut/m/, width 32 of formal port mra_d is not equal to width 1 of actual signal mra_d_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 161.  For instance uut/m/, width 32 of formal port mrd_d is not equal to width 1 of actual signal mrd_d_51.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 76.  For instance uut/w/, width 5 of formal port src is not equal to width 6 of actual variable src_reg_out_mr_f_51. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 76.  For instance uut/w/, width 5 of formal port dest is not equal to width 6 of actual variable dest_reg_out_mr_f_51. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 76.  For instance uut/w/, width 5 of formal port target is not equal to width 6 of actual variable targ_reg_out_mr_f_51. 
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 76.  For instance uut/w/, width 5 of formal port src is not equal to width 6 of actual variable src_reg_out_mr_f_51. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 76.  For instance uut/w/, width 5 of formal port dest is not equal to width 6 of actual variable dest_reg_out_mr_f_51. 
+WARNING: File "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/main.v" Line 76.  For instance uut/w/, width 5 of formal port target is not equal to width 6 of actual variable targ_reg_out_mr_f_51. 
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
