@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="A:/Cloud/Git/Verilog_Lab/MIPS_ISA/testbench_main_2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_main_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/testbench_main_2/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/nstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nstate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nstate[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/reg_instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/rdtemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdtemp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdtemp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/atemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">atemp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">atemp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/ex_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/immi" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immi[15:0]</obj_property>
+      <obj_property name="ObjectShortName">immi[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/flag_beq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">flag_beq</obj_property>
+      <obj_property name="ObjectShortName">flag_beq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[31:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[31:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/register" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">register[31:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[31:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s6[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s9[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s10[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s11[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s12[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s13[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s13[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s14[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s14[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s15[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s15[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s16[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s16[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s17" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s17[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s17[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_main_2/uut/s18" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s18[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s18[7:0]</obj_property>
+   </wvobject>
+</wave_config>
