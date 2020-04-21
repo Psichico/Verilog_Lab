@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 665: &lt;<arg fmt="%s" index="1">SUBI</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 666: &lt;<arg fmt="%s" index="1">CALL</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 584: Module &lt;<arg fmt="%s" index="1">execute</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 710: &lt;<arg fmt="%s" index="1">LDW</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 716: &lt;<arg fmt="%s" index="1">STW</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 674: Module &lt;<arg fmt="%s" index="1">memory_write</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 779: &lt;<arg fmt="%s" index="1">ADD</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 782: &lt;<arg fmt="%s" index="1">R0</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 783: &lt;<arg fmt="%s" index="1">R1</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 784: &lt;<arg fmt="%s" index="1">R2</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 785: &lt;<arg fmt="%s" index="1">R3</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 786: &lt;<arg fmt="%s" index="1">R4</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 787: &lt;<arg fmt="%s" index="1">R5</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 788: &lt;<arg fmt="%s" index="1">R6</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 789: &lt;<arg fmt="%s" index="1">R7</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 790: &lt;<arg fmt="%s" index="1">R8</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 791: &lt;<arg fmt="%s" index="1">R9</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 792: &lt;<arg fmt="%s" index="1">R10</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"A:\Cloud\Git\Verilog_Lab\TEST\test.v" Line 793: &lt;<arg fmt="%s" index="1">R11</arg>&gt; is not declared.
+</msg>
+
+</messages>
+

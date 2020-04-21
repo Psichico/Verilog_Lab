@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/TEST/proc.xst" -ofn "A:/Cloud/Git/Verilog_Lab/TEST/proc.syr" 
+xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/TEST/proc.xst" -ofn "A:/Cloud/Git/Verilog_Lab/TEST/proc.syr" 

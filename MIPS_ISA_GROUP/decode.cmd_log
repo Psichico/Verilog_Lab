@@ -1,3 +1,0 @@
-xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/decode.xst" -ofn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/decode.syr" 
-xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/decode.xst" -ofn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/decode.syr" 
-xst -intstyle ise -ifn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/decode.xst" -ofn "A:/Cloud/Git/Verilog_Lab/MIPS_ISA_GROUP/decode.syr" 

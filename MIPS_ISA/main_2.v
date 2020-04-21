@@ -90,9 +90,10 @@ reg flag_beq;
 reg [31:0] memory [31:0];
 initial begin
 	memory[0] = 32'b000001_00000_00000_00001_00000000000;
-	memory[1] = 32'b000010_00111_00000_00000_00000000110;
-	memory[2] = 32'b000011_00011_00010_00000_00000000000;
-	memory[3] = 32'b000011_00101_00100_00000_00000000000;
+	
+	memory[1] = 32'b000010_00111_00000_00000_00000000000;
+	memory[2] = 32'b000011_00010_00011_00000_00000000000;
+	memory[3] = 32'b000011_00100_00101_00000_00000000000;
 	memory[4] = 32'b000100_00010_00100_00010_00000000000;
 	memory[5] = 32'b000001_00001_00010_00001_00000000000;
 	memory[6] = 32'b000101_00011_00011_00000_00000000100;
@@ -229,7 +230,7 @@ begin
 			op <= reg_instruction[31:26];
 			a <= register[reg_instruction[25:21]];
 			b <= register[reg_instruction[20:16]];
-			rd <= reg_instruction[15:11];
+			//rd <= reg_instruction[15:11];
 			
 			//stall
 			
@@ -251,7 +252,7 @@ begin
 			
 			else
 			begin
-				//fetch $r2 0($r3) ;  			// 000011 00011 00010 00000 00000000000
+				//fetch lw $r2 0($r3) ;  			// // 000011 00010 00011 00000 00000000000
 				reg_instruction <= memory[2];
 				
 				nstate <= s4;
@@ -264,13 +265,13 @@ begin
 			
 			//memory beq $r7 $r0 done ;   	// 000010 00111 00000 00000 00000000110 (done)
 			
-			//decode lw $r2 0($r3) ;  			// 000011 00011 00010 00000 00000000000
+			//decode lw $r2 0($r3) ;  			// 000011 00010 00011 00000 00000000000
 			op <= reg_instruction[31:26];
 			a <= register[reg_instruction[25:21]];
 			b <= register[reg_instruction[20:16]];
 			immi <= reg_instruction[15:0];
 			
-			//fetch lw $r4 0($r5) ;  		// 000011 00101 00100 00000 00000000000
+			//fetch lw $r4 0($r5) ;  		// 000011 00100 00101 00000 00000000000
 			reg_instruction <= memory[3];
 				
 			nstate <= s5;
@@ -281,11 +282,11 @@ begin
 		begin
 			//writeback
 			
-			//execute lw $r2 0($r3) ;  			// 000011 00011 00010 00000 00000000000
+			//execute lw $r2 0($r3) ;  			// 000011 00010 00011 00000 00000000000
 			alu_out <= b + {immi[15] ? 14'b11_1111_1111_1111 : 14'b0000_0000_0000_0000, immi};
 			atemp   <= a;
 			
-			//decode lw $r4 0($r5) ;  		// 000011 00101 00100 00000 00000000000
+			//decode lw $r4 0($r5) ;  		// 000011 00100 00101 00000 00000000000
 			op <= reg_instruction[31:26];
 			a <= register[reg_instruction[25:21]];
 			b <= register[reg_instruction[20:16]];
@@ -297,10 +298,10 @@ begin
 		
 		s6:
 		begin
-			//memory lw $r2 0($r3) ;  			// 000011 00011 00010 00000 00000000000
+			//memory lw $r2 0($r3) ;  			// 000011 00010 00011 00000 00000000000
 			register[atemp] <= memory[alu_out];
 			
-			//execute lw $r4 0($r5) ;  		// 000011 00101 00100 00000 00000000000
+			//execute lw $r4 0($r5) ;  		// 000011 00100 00101 00000 00000000000
 			alu_out <= b + {immi[15] ? 14'b11_1111_1111_1111 : 14'b0000_0000_0000_0000, immi};
 			atemp   <= a;
 			
@@ -310,9 +311,9 @@ begin
 		
 		s7:
 		begin
-			//writeback lw $r2 0($r3) ;  			// 000011 00011 00010 00000 00000000000
+			//writeback lw $r2 0($r3) ;  			// 000011 00010 00011 00000 00000000000
 			
-			//memory lw $r4 0($r5) ;  		// 000011 00101 00100 00000 00000000000
+			//memory lw $r4 0($r5) ;  		// 000011 00100 00101 00000 00000000000
 			register[atemp] <= memory[alu_out];
 			
 			nstate <= s8;

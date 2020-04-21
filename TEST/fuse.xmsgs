@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 665: &lt;<arg fmt="%s" index="1">SUBI</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 666: &lt;<arg fmt="%s" index="1">CALL</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 584: Module &lt;<arg fmt="%s" index="1">execute</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 710: &lt;<arg fmt="%s" index="1">LDW</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 716: &lt;<arg fmt="%s" index="1">STW</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 674: Module &lt;<arg fmt="%s" index="1">memory_write</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 983: &lt;<arg fmt="%s" index="1">CALL</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 987: &lt;<arg fmt="%s" index="1">SUBI</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 729: Module &lt;<arg fmt="%s" index="1">rw</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="31" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 1081: &lt;<arg fmt="%s" index="1">a_de_f_51</arg>&gt; is already declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"A:/Cloud/Git/Verilog_Lab/TEST/test.v" Line 1034: Module &lt;<arg fmt="%s" index="1">proc</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+
