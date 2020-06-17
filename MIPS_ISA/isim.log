@@ -11,70 +11,26 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
+addu $r1 $r0 $r0:	r1 = 00000000000000000000000000000000,          0
+lw $r2 0($r3):		r2 = 00000000000000000000000000000001,          1
+lw $r4 0($r5):		r4 = 00000000000000000000000000000001,          1
+mul $r2 $r2 $r4: 	r2 = 00000000000000000000000000000001,          1
+addu $r1 $r1 $r2:	r1 = 00000000000000000000000000000001,          1
+addiu $r3 $r3 #4:	r3 = 00000000000000000000000000000100,          4
+addiu $r5 $r5 #4:	r5 = 00000000000000000000000000000100,          4
+addiu $r7 $r7 #-1:	r7 = 00000000000000000000000000000001,          1
+       -------------------------------------              
+lw $r2 0($r3):		r2 = 00000000000000000000000000000001,          1
+lw $r4 0($r5):		r4 = 00000000000000000000000000000001,          1
+mul $r2 $r2 $r4: 	r2 = 00000000000000000000000000000001,          1
+addu $r1 $r1 $r2:	r1 = 00000000000000000000000000000010,          2
+addiu $r3 $r3 #4:	r3 = 00000000000000000000000000001000,          8
+addiu $r5 $r5 #4:	r5 = 00000000000000000000000000001000,          8
+addiu $r7 $r7 #-1:	r7 = 00000000000000000000000000000000,          0
+       -------------------------------------              
+Execution Finished. Done Label
+   
+Result= 00000000000000000000000000000010 , or          2  
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -83,67 +39,23 @@ This is a Lite version of ISim.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
-HELLO
+addu $r1 $r0 $r0:	r1 = 00000000000000000000000000000000,          0
+lw $r2 0($r3):		r2 = 00000000000000000000000000000001,          1
+lw $r4 0($r5):		r4 = 00000000000000000000000000000001,          1
+mul $r2 $r2 $r4: 	r2 = 00000000000000000000000000000001,          1
+addu $r1 $r1 $r2:	r1 = 00000000000000000000000000000001,          1
+addiu $r3 $r3 #4:	r3 = 00000000000000000000000000000100,          4
+addiu $r5 $r5 #4:	r5 = 00000000000000000000000000000100,          4
+addiu $r7 $r7 #-1:	r7 = 00000000000000000000000000000001,          1
+       -------------------------------------              
+lw $r2 0($r3):		r2 = 00000000000000000000000000000001,          1
+lw $r4 0($r5):		r4 = 00000000000000000000000000000001,          1
+mul $r2 $r2 $r4: 	r2 = 00000000000000000000000000000001,          1
+addu $r1 $r1 $r2:	r1 = 00000000000000000000000000000010,          2
+addiu $r3 $r3 #4:	r3 = 00000000000000000000000000001000,          8
+addiu $r5 $r5 #4:	r5 = 00000000000000000000000000001000,          8
+addiu $r7 $r7 #-1:	r7 = 00000000000000000000000000000000,          0
+       -------------------------------------              
+Execution Finished. Done Label
+   
+Result= 00000000000000000000000000000010 , or          2  
